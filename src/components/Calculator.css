@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+
+.label-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+    height: 20%;
+    border-radius: 15px;
+}
+
+.container {
+  width: 750px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 15px 15px 30% 15px;
+}
+
+.only-label{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.input-label{
+    height: 60px;
+    width: 150px;
+    font-size: 30px;
+    border-radius: 5px;
+    border:1px solid gray;
+}
+
+.button{
+    border-radius: 50%;
+    border-style: none;
+    width: 115px;
+    height: 115px;
+    margin-top: 180px;
+}
+
+.calculo{
+    font-size: 50px;
+    padding-left: 50px;
+}
+
+.error{
+    color: red;
+    border-color: red;
+}
+
+.error-message{
+    font-size: 12px;
+}
